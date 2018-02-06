@@ -1,0 +1,59 @@
+.App{
+  height: 100%;
+  
+}
+.homeview{
+  height: 200px;
+  width: 200px;
+  background: rgb(196, 179, 179);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 46px;
+}
+.content{
+  height: 800px;
+  width: 800px;
+  background:lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0 px;
+  overflow: hidden;
+  background-color:white;
+  
+}
+
+.header1 {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  background:lightgrey;
+}
+
+
+
+/* Change the link color to #111 (black) on hover */
+.header1 a:hover {
+  background-color:gray;
+}
+.header1 a:active {
+  background-color:gray;
+  color:white;
+}
+
+
+
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
